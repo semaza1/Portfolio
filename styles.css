@@ -278,7 +278,7 @@ textarea {
     }
   }
   .down {
-    animation: movingAnimation 3s infinite alternate;
+    animation: movingAnimation 3s infinite alternate; 
   }
 
 .about {
