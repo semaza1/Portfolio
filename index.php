@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Emmanuel SEMAZA</title>
+    <title>Emmanuel's Portfolio</title>
     <meta name="description" content="My portfolio" />
 
     <link rel="stylesheet" href="styles.css" />
@@ -23,8 +23,8 @@
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="./assets/emmanuel.jpg"
-              alt="Ram Maheshwari Logo Image"
+              src="./Assets/emmanuel.jpg"
+              alt="Emmanuel SEMAZA logo image"
               class="header__logo-img"
             />
           </div>
@@ -33,18 +33,18 @@
         <div class="header__main">
           <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
+              <a href="./index.php" class="header__link"> Home </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
+              <a href="./index.php#about" class="header__link"> About </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
+              <a href="./index.php#projects" class="header__link">
                 Projects
               </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
+              <a href="./index.php#contact" class="header__link"> Contact </a>
             </li>
           </ul>
         </div>
@@ -55,7 +55,7 @@
         <h1 class="heading-primary">Hey👋, I'm Emmanuel</h1>
         <div class="home-hero__info">
           <p class="text-primary">
-            I am  a skilled front-end developer proficient in using Figma, HTML, CSS, JavaScript, PHP, and MySQL to create productive and effective projects. Your expertise spans from designing intuitive user interfaces to implementing robust backend systems. You value clear documentation and welcome contributions, fostering collaborative development environments.
+            I am  a skilled front-end developer and UI/UX designer proficient in using HTML, CSS, JavaScript, PHP, and Figma to create productive and effective user interfaces and experience. 
           </p>
         </div>
         <div class="home-hero__cta">
@@ -125,8 +125,7 @@
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main">About Me</span>
           <span class="heading-sec__sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology. Feel free to explore!
           </span>
         </h2>
         <div class="about__content">
@@ -135,19 +134,12 @@
             <div class="about__content-details">
               <p class="about__content-details-para">
                 Hey! It's
-                <strong>Emmanuel SEMAZA</strong>
-                and I'm a <strong> Frontend Web Developer </strong> located in
-                Rwanda. I've done
-                <strong> remote </strong>
-                projects for agencies, consulted for startups, and collaborated
-                with talented people to create
-                <strong>digital products </strong>
-                for both business and consumer use.
+                <strong>Emmanuel SEMAZA</strong>.
+                I'm a <strong>Frontend Web Developer </strong>and  <strong>UI/UX designer</strong> located in
+                Rwanda. I use different materials to make productive and effective projects. I look forward to <strong>collaborate</strong> with you and <strong> explore</strong> more together.
               </p>
               <p class="about__content-details-para">
-                I'm a bit of a digital product junky. Over the years, I've used
-                hundreds of web and mobile apps in different industries and
-                verticals. Feel free to
+                Feel free to
                 <strong>contact</strong> me here.
               </p>
             </div>
@@ -180,8 +172,7 @@
         <h2 class="heading heading-sec heading-sec__mb-bg">
           <span class="heading-sec__main">Projects</span>
           <span class="heading-sec__sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            Here you will find some of the personal and clients projects that I created with each project containing its own case study.
           </span>
         </h2>
 
@@ -198,12 +189,10 @@
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">Pharmacy Management System</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                This project came up to help doctors and Pharmacist to manage a stock of Pharmacy. It counts how many drugs in stock and how many are outstored. It cheack if the drug request has been approved or not.
               </p>
               <a
-                href="./project-1.html"
+                href="#"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
                 >Case Study</a
@@ -222,12 +211,10 @@
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">Voting System</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                This is Voting System which help people to inhance democracy among themselves. It allows the admin to register the candidate then users vote for the registered candidate.
               </p>
               <a
-                href="./project-2.html"
+                href="#"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
                 >Case Study</a
@@ -246,12 +233,10 @@
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">Me - Portfolio</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                I successfully created my Portfolio which allows me to connect with my clients and employers. It shows all my abilities and strength in programming.
               </p>
               <a
-                href="./project-3.html"
+                href="#"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
                 >Case Study</a
@@ -266,12 +251,17 @@
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main heading-sec__main--lt">Contact</span>
           <span class="heading-sec__sub heading-sec__sub--lt">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            Feel free to Contact me by submitting the form below and I will get back to you as soon as possible
           </span>
         </h2>
+        <p style="color: green; font-weight: 600; text-align: center; font-size: 1.5rem;">
+                    <?php  if (isset($_GET['error'])){
+                        $error = $_GET['error'];
+                        echo $error;
+                    }?>
+                </p>
         <div class="contact__form-container">
-          <form action="#" class="contact__form">
+          <form action="adminConn.php" class="contact__form" method="post">
             <div class="contact__form-field">
               <label class="contact__form-label" for="name">Name</label>
               <input
@@ -306,7 +296,7 @@
                 id="message"
               ></textarea>
             </div>
-            <button type="submit" class="btn btn--theme contact__btn">
+            <button type="submit" class="btn btn--theme contact__btn" name="sub">
               Submit
             </button>
           </form>
@@ -361,7 +351,7 @@
           <div class="main-footer__row main-footer__row-2">
             <h4 class="heading heading-sm text-lt">Emmanuel SEMAZA</h4>
             <p class="main-footer__short-desc">
-              I'm a <strong> Frontend Web Developer </strong> located in
+              I'm a <strong> Frontend Web Developer </strong> and <strong>UI/UX designer</strong> located in
                 Rwanda. Do not hesitate to <strong>connect</strong> and <strong>collaborate</strong> with me. Feel free to contact me here.
             </p>
           </div>
@@ -369,7 +359,7 @@
 
         <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
         <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
+          &copy; Copyright 2024. Made by
           <a rel="noreferrer" target="_blank" href="index.html"
             >Emmanuel SEMAZA</a
           >
