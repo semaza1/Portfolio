@@ -109,8 +109,7 @@
         <div class="home-hero__social">
           <a
             href="https://www.instagram.com/emm_nyaxo/" target="_blank"
-            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
-          >
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
             <img
               src="./assets/bi--instagram.png"
               alt="icon"
