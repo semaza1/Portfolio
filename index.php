@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="./Assets/emmanuel.jpg">
 
+    <link rel="stylesheet" href="styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,13 +20,13 @@
     />
   </head>
   <body>
-    <header class="header">
+  <header class="header">
       <div class="header__content">
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="./Assets/emmanuel.jpg"
-              alt="Emmanuel SEMAZA logo image"
+              src="./assets/emmanuel.jpg"
+              alt="Emmanuel's Image"
               class="header__logo-img"
             />
           </div>
@@ -36,7 +38,7 @@
               <a href="./index.php" class="header__link"> Home </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.php#about" class="header__link"> About </a>
+              <a href="./index.php#about" class="header__link">About </a>
             </li>
             <li class="header__link-wrapper">
               <a href="./index.php#projects" class="header__link">
@@ -45,6 +47,40 @@
             </li>
             <li class="header__link-wrapper">
               <a href="./index.php#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./Assets/ham-menu.png" 
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+              height="30px"
+            />
+            <img
+              src="./assets/ham-menu-close.png"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.php"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.php#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.php#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.php#contact"> Contact </a>
             </li>
           </ul>
         </div>
@@ -60,9 +96,6 @@
         </div>
         <div class="home-hero__cta">
           <a href="./#projects" class="btn btn--bg">Projects</a>
-        </div>
-        <div class="scroll_down">
-          <img src="./Assets/bi--arrow-down-circle-fill.png" alt="scroll down" height="50px" width="50px" class="down">
         </div>
       </div>
       <div class="home-hero__socials">
@@ -117,6 +150,9 @@
             />
           </a>
         </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
       </div>
     </section>
     <section id="about" class="about sec-pad">
