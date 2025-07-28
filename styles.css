@@ -42,6 +42,36 @@ body {
   overflow-y: scroll;
   font-family: 'Source Sans Pro', sans-serif; }
 
+/* LIGHT THEME (default) */
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* DARK THEME */
+body.dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Optional: override section backgrounds */
+body.dark .header,
+body.dark section {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body.dark .header__link,
+body.dark .header__logo-sub{
+  color: #ffffff; 
+}
+
+body.light .header,
+body.light section {
+  background-color: #ffffff;
+  color: #000000;
+}
+
 a {
   text-decoration: none;
   color: inherit; }
